@@ -1,5 +1,3 @@
-#paper description
-
 **The plot-outputs will be saved in the directory, where the code is run.**
 
 This paper addresses the limitations of traditional, offline energy optimization methods in manufacturing, which struggle to reflect real-time physical shop floor behaviors or dynamically handle unexpected machine breakdowns. To solve this, the authors propose a Digital Twin-based Real-time Energy Optimization (DT-REO) method.  The methodology builds a digital twin model integrating geometry, physics, production behaviors, and simulation rules. It enables real-time data interaction between the virtual and physical worlds through a cyber-physical system bus. The DT-REO method continuously coordinates two primary decision-making components:  Maintenance Level Decision: Determines the optimal repair level (minor maintenance, incomplete maintenance, or repair as new) when a machine fails to minimize maintenance cost rates.  Energy Consumption Control: Employs a genetic algorithm to strategically turn off non-bottleneck machines based on cache potential. This minimizes standby energy waste without causing production losses.  Key Results
